@@ -9,13 +9,20 @@ html, body {
     /* DO NOT EDIT */
     vertical-align: bottom;
 
-    /* Your code here 
+    width: 30px;
+    height: 30px;
+    margin-bottom: 28px;
+    margin-right: 20px;
 }
 
 
 h1 {
-    /* Your code here 
+    display: inline-block;
 }
+
+/* span {
+    Dont need to style all span tags, just the attribution quote
+} */
 
 /* Phase 2 */
 
@@ -23,11 +30,19 @@ h1 {
     /* DO NOT EDIT */
     vertical-align: top;
 
-    /* Your code here 
+    border-style: dotted;
+    border-color: black;
+    border-width: 4px;
+    background-color: bisque;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
 }
 
 .alternate {
-    /* Your code here 
+    box-sizing: border-box;
 }
 
 /* Phase 3 */
@@ -44,12 +59,15 @@ h1 {
     background-color: lightgray;
     font-size: larger;
 
-    /* Your code here 
+    width: fit-content;
+    margin: 10px auto;
+    padding: 20px;
 }
 
 .attribution {
     /* DO NOT EDIT */
     font-style: italic;
 
-    /* Your code here 
+    display: block;
+    padding: 10px 20px;
 }
